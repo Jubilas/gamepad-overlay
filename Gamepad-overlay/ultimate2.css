@@ -1,42 +1,33 @@
-/* 8BitDo Ultimate 2 – Black Matte Overlay */
+/* ===== 8BitDo Ultimate 2 – Black Matte Overlay ===== */
 
 /* Controle base */
 .controller.custom {
   position: absolute;
   width: 620px;
   height: 410px;
-  background-image: url("https://raw.githubusercontent.com/Jubilas/gamepad-overlay/refs/heads/main/Gamepad-overlay/ultimate2/base.svg");
-  background-size: contain;
+  background-image: url("https://raw.githubusercontent.com/Jubilas/gamepad-overlay/main/Gamepad-overlay/ultimate2/base.svg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  transform: translate(-50%, -50%) scale(1.15);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
-/* Esconde camadas padrão */
-.custom .button,
-.custom .stick,
-.custom .face,
-.custom .bumper,
-.custom .trigger-button,
-.custom .start,
-.custom .back {
+/* Esconde camadas padrão do Gamepad Viewer */
+.controller.custom .button,
+.controller.custom .stick,
+.controller.custom .face,
+.controller.custom .bumper,
+.controller.custom .trigger-button,
+.controller.custom .start,
+.controller.custom .back {
   opacity: 0;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 /* Quando pressionado */
-.custom .pressed {
+.controller.custom .pressed {
   opacity: 1;
 }
-
-/* ===== (Opcional – futuro) ===== */
-/* Aqui você pode adicionar depois os SVGs dos botões pressionados */
-
-/*
-.custom .a.pressed { background-image: url(ultimate2/pressed-a.svg); }
-.custom .b.pressed { background-image: url(ultimate2/pressed-b.svg); }
-.custom .x.pressed { background-image: url(ultimate2/pressed-x.svg); }
-.custom .y.pressed { background-image: url(ultimate2/pressed-y.svg); }
-*/
-
