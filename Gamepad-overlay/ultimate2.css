@@ -5,7 +5,7 @@
   position: absolute;
   width: 620px;
   height: 410px;
-  background-image: url("https://raw.githubusercontent.com/Jubilas/gamepad-overlay/refs/heads/main/Gamepad-overlay/ultimate2wireless.svg");
+  background-image: url("ultimate2wireless.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -31,4 +31,3 @@
 .controller.custom .pressed {
   opacity: 1;
 }
-
