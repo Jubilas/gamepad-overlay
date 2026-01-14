@@ -5,7 +5,7 @@
   position: absolute;
   width: 620px;
   height: 410px;
-  background-image: url(ultimate2/base.svg);
+  background-image: url("https://raw.githubusercontent.com/Jubilas/gamepad-overlay/refs/heads/main/Gamepad-overlay/ultimate2/base.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,3 +39,4 @@
 .custom .x.pressed { background-image: url(ultimate2/pressed-x.svg); }
 .custom .y.pressed { background-image: url(ultimate2/pressed-y.svg); }
 */
+
